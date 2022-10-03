@@ -247,6 +247,32 @@ void main_menu()
                     default:cout<<"\a";
           }
 	}
-	
+	void intro()
+{
+     system("color 05");
+     system("cls");
+  cout<<"\t\t\t\t*\t*";
+  cout<<"\t\t\t\t**\t**";
+   cout<<"\t\t\t\t***\t***";
+   cout<<"\t\t\t\t****\t****";
+   cout<<"\t\t\t\t*****\t*****";
+    cout<<"\t\t\t\t******\t******";
+   cout<<"\t\t\t\t*******\t*******";
+   cout<<"\t\t\t\t*******\t*******";
+   cout<<"\t\t\t\t******\t******";
+   cout<<"\t\t\t\t*****\t*****";
+   cout<<"\t\t\t\t****\t****";
+   cout<<"\t\t\t\t***\t***";
+   cout<<"\t\t\t\t**\t**";
+   cout<<"\t\t\t\t*\t*";
+}
+ 
+ 
+int main(int argc, char *argv[])
+{
+	intro();
+	main_menu();
+	return 0;
+}
 }
  
